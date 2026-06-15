@@ -57,7 +57,7 @@ This project addresses these questions through structured data analysis and visu
 |---------|-----------|
 | Data Processing | Python (Pandas, NumPy) |
 | Data Analysis | SQL (PostgreSQL) |
-| Visualization | Power BI |
+| Visualization | Tableau |
 
 ---
 
