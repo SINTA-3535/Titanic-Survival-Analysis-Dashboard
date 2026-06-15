@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Description
+## 📌 Project Description 
 
 An end-to-end data analytics project focused on exploring the Titanic passenger dataset to uncover the key factors that influenced survival during the disaster.
 
