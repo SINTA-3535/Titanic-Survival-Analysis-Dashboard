@@ -1,136 +1,153 @@
 # 🚢 Titanic Survival Analysis
 
-## 📌 Project Overview
-This project performs an end-to-end exploratory data analysis (EDA) on the Titanic dataset to identify factors that influenced passenger survival during the Titanic disaster.
+### 📊 End-to-End Data Analytics Project | Python • SQL • Power BI
 
-Using Python and data visualization techniques, the project uncovers patterns related to passenger class, age, gender, fare, and embarkation details.
-
----
-
-## 🎯 Objectives
-- Understand the structure and quality of the Titanic dataset.
-- Perform data cleaning and preprocessing.
-- Explore relationships between passenger attributes and survival.
-- Visualize key trends and patterns.
-- Generate insights that explain survival probabilities.
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-green)
+![Power BI](https://img.shields.io/badge/Visualization-PowerBI-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
-## 📂 Dataset
-The dataset contains information about Titanic passengers, including:
+## 📌 Project Description
 
-- Passenger ID
-- Name
-- Gender
-- Age
-- Passenger Class (Pclass)
-- Fare
-- Embarked Port
-- Number of Siblings/Spouses (SibSp)
-- Number of Parents/Children (Parch)
-- Survival Status
+An end-to-end data analytics project focused on exploring the Titanic passenger dataset to uncover the key factors that influenced survival during the disaster.
 
-Target Variable:
+This project demonstrates how data analytics and visualization techniques can be used to identify patterns, analyze passenger demographics, and generate meaningful insights from historical data.
+
+---
+
+## 🎯 Business Problem
+
+Understanding survival outcomes on the Titanic requires answering questions such as:
+
+- Did gender influence survival chances?
+- How did passenger class impact survival rates?
+- Were children more likely to survive than adults?
+- Did ticket fare have any relationship with survival?
+- Which passenger groups were the most vulnerable?
+
+This project addresses these questions through structured data analysis and visualization.
+
+---
+
+## 📊 Dataset Overview
+
+- **Records:** 891 Passengers
+- **Features:** 12
+- **Includes:**
+  - Passenger Demographics (Age, Gender)
+  - Passenger Class (Pclass)
+  - Ticket Fare
+  - Embarkation Port
+  - Family Information (SibSp, Parch)
+  - Survival Status
+
+### Target Variable
+
 - **Survived**
   - 0 = Did Not Survive
   - 1 = Survived
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+| Layer | Tools Used |
+|---------|-----------|
+| Data Processing | Python (Pandas, NumPy) |
+| Data Analysis | SQL (PostgreSQL) |
+| Visualization | Power BI |
 
 ---
 
-## 📊 Analysis Performed
+## 🔄 Project Workflow
 
-### 1. Data Cleaning
-- Checked missing values
-- Handled null entries
-- Removed unnecessary columns
-- Verified data types
+1. Data Collection
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Analysis
+5. Data Visualization
+6. Insight Generation
+7. Dashboard Development
 
-### 2. Exploratory Data Analysis (EDA)
-- Survival distribution
-- Gender-wise survival analysis
-- Passenger class analysis
-- Age distribution
-- Fare distribution
-- Embarkation trends
-- Correlation analysis
+---
 
-### 3. Data Visualization
-- Count plots
-- Bar charts
-- Histograms
-- Heatmaps
-- Box plots
-- Pie charts
+## 🔧 Data Preparation
+
+- Handled missing values in Age, Cabin, and Embarked columns
+- Removed duplicate and irrelevant records
+- Standardized data formats and categories
+- Created age groups for demographic analysis
+- Prepared clean datasets for visualization and reporting
+
+---
+
+## 📸 Dashboard Preview
+
+> *(Replace with your actual dashboard screenshots)*
+
+![Dashboard Overview](assets/dashboard_overview.png)
+
+![Survival Analysis](assets/survival_analysis.png)
+
+![Passenger Demographics](assets/passenger_demographics.png)
 
 ---
 
 ## 🔍 Key Insights
 
-### Gender Impact
-- Female passengers had a significantly higher survival rate than male passengers.
-
-### Passenger Class Impact
-- First-class passengers had the highest survival probability.
-- Third-class passengers experienced the lowest survival rate.
-
-### Age Analysis
-- Children generally had better survival chances compared to older passengers.
-
-### Fare Analysis
-- Passengers who paid higher fares were more likely to survive.
-
-### Embarkation Analysis
-- Survival rates varied across different embarkation ports.
+- Female passengers had significantly higher survival rates than males
+- First-class passengers were more likely to survive than second- and third-class passengers
+- Children showed better survival rates compared to older age groups
+- Passengers who paid higher fares generally had higher survival chances
+- Most fatalities occurred among third-class male passengers
 
 ---
 
-## 📈 Sample Visualizations
+## 💡 Business Recommendations
 
-- Survival Count Distribution
-- Survival by Gender
-- Survival by Passenger Class
-- Age Distribution of Passengers
-- Fare Distribution
-- Correlation Heatmap
+- Prioritize vulnerable groups during emergency evacuations
+- Ensure equal access to safety resources across all passenger classes
+- Improve emergency response planning based on demographic risk factors
+- Use passenger segmentation to identify high-risk groups during crises
 
 ---
 
-## 🚀 Project Workflow
+## 📊 Dashboard Highlights
 
-1. Import Dataset
-2. Data Inspection
-3. Data Cleaning
-4. Feature Analysis
-5. Data Visualization
-6. Insight Generation
-7. Conclusion
+✔ Overall Survival Rate
+
+✔ Survival by Gender
+
+✔ Survival by Passenger Class
+
+✔ Age Distribution Analysis
+
+✔ Fare Analysis
+
+✔ Passenger Demographic Insights
+
+✔ Interactive Filters and Visualizations
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
+```text
 Titanic-Survival-Analysis/
 │
 ├── data/
-│   └── titanic.csv
+│   └── Titanic.csv
 │
 ├── notebooks/
-│   └── Titanic_Analysis.ipynb
+│   └── Titanic_Survival_Analysis.ipynb
 │
-├── images/
-│   └── visualizations
+├── dashboards/
+│   └── Titanic_Dashboard.pbix
+│
+├── assets/
+│   └── dashboard_images
 │
 ├── README.md
 │
@@ -139,39 +156,9 @@ Titanic-Survival-Analysis/
 
 ---
 
-## ▶️ How to Run
+## 🚀 Project Outcome
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/Titanic-Survival-Analysis.git
-```
-
-### Navigate to Project Directory
-
-```bash
-cd Titanic-Survival-Analysis
-```
-
-### Install Required Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open the notebook and run all cells.
-
----
-
-## 📌 Conclusion
-
-The analysis reveals that gender, passenger class, age, and fare played significant roles in determining survival outcomes on the Titanic. The project demonstrates how exploratory data analysis can uncover meaningful insights from historical datasets.
+This project successfully transformed raw passenger data into actionable insights through data cleaning, analysis, and visualization. The findings highlight how factors such as gender, passenger class, age, and fare significantly influenced survival outcomes on the Titanic.
 
 ---
 
@@ -179,9 +166,9 @@ The analysis reveals that gender, passenger class, age, and fare played signific
 
 **Sinta Richard**
 
-Final Year Electrical & Computer Engineering Student  
+Final Year Electrical & Computer Engineering Student
+
 Aspiring Data Analyst | Machine Learning Enthusiast
 
 ---
-
 ⭐ If you found this project useful, consider giving it a star.
