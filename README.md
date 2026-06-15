@@ -4,8 +4,8 @@
 
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-green)
-![Power BI](https://img.shields.io/badge/Visualization-PowerBI-yellow)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![Tableau](https://img.shields.io/badge/Visualization-Tableau-green)
+
 
 ---
 
@@ -110,29 +110,5 @@ This project addresses these questions through structured data analysis and visu
 
 ---
 
----
 
-## 📂 Project Structure
-
-```text
-Titanic-Survival-Analysis/
-│
-├── data/
-│   └── Titanic.csv
-│
-├── notebooks/
-│   └── Titanic_Survival_Analysis.ipynb
-│
-├── dashboards/
-│   └── Titanic_Dashboard.pbix
-│
-├── assets/
-│   └── dashboard_images
-│
-├── README.md
-│
-└── requirements.txt
-```
-
----
 
